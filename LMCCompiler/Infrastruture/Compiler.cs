@@ -1,8 +1,8 @@
-﻿//01xxxx ADD A xxxx RAM címen lévő érték hozzáadása az akkumolátorhoz és beállítja a negatív ill. 0 jelzőt
-//02xxxx SUB Kivonja az xxxx RAM címen lévő értéket az akkumolátor aktuális értékéből és beállítja a negatív ill. 0 jelzőt
-//03xxxx STA Beírja az akkumolátor aktuális értékét az xxxx RAM címre
+﻿//01xxxx ADD A xxxx RAM címen lévő érték hozzáadása az akkumulátorhoz és beállítja a negatív ill. 0 jelzőt
+//02xxxx SUB Kivonja az xxxx RAM címen lévő értéket az akkumulátor aktuális értékéből és beállítja a negatív ill. 0 jelzőt
+//03xxxx STA Beírja az akkumulátor aktuális értékét az xxxx RAM címre
 //04xxxx LOA Betölti az xxxx RAM címen lévő értéket az akkumolátorba
-//05xxxx DAT Beállítja az akkumulátor értékét xx-re mivel jelenleg 8bites az adatszélesség ezért csak 256nál kissebb érték lesz figyelembe véve
+//05xxxx DAT Beállítja az akkumulátor értékét xx-re mivel jelenleg 8bites az adatszélesség ezért csak 256nál kisebb érték lesz figyelembe véve
 //06xxxx BRA Átállítja a program mutatót az XXXX értékre és onnan folytatódik a program futása
 //07xxxx BRZ Ha a null jelző 1 akkor átállítja a program mutatót az XXXX értékre és onnan folytatódik a program futása
 //08xxxx BRP Ha a negatív jelző  0 akkor átállítja a program mutatót az XXXX értékre és onnan folytatódik a program futása
