@@ -5,7 +5,7 @@
 //05xxxx DAT Beállítja az akkumulátor értékét xx-re mivel jelenleg 8bites az adatszélesség ezért csak 256nál kisebb érték lesz figyelembe véve
 //06xxxx BRA Átállítja a program mutatót az XXXX értékre és onnan folytatódik a program futása
 //07xxxx BRZ Ha a null jelző 1 akkor átállítja a program mutatót az XXXX értékre és onnan folytatódik a program futása
-//08xxxx BRP Ha a negatív jelző  0 akkor átállítja a program mutatót az XXXX értékre és onnan folytatódik a program futása
+//08xxxx BRP Ha a negatív jelző 1 akkor átállítja a program mutatót az XXXX értékre és onnan folytatódik a program futása
 //90xxxx OUT Kiírja az akkumolátor aktuális értékét a kimenetre. A jelenlegi compilernek szükséges megadni minden esetben egy attribútum értéket ezért a parancs beírása után mindenképpen adjunk meg egy tetszóleges számot
 //990000 BRK Program vége. A jelenlegi compilernek szükséges megadni minden esetben egy attribútum értéket ezért a parancs beírása után mindenképpen adjunk meg egy tetszóleges számot
 
